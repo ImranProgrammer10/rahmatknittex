@@ -1,0 +1,59 @@
+.input-field {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+    width: 70%;
+  }
+  .input-button {
+    background-color: rgb(8, 20, 57, 0.95);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    width: 50%;
+    margin-top: 20px;
+  }
+  .input-button:hover {
+    background-color: #081439;
+  }
+  .bg-image {
+    /* The image used */
+    background-image: url("./logo/contact.png");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contactinfo {
+    font-family: "Playfair Display", serif;
+    color: #081439;
+  }
+  .shadow {
+    box-shadow: 0 0 20px 5px rgba(156, 155, 155, 0.849);
+  }
+  .img-ceo img{
+    border-radius: 10px;
+  }
+  
+  .director{
+    height: 200px;
+    width: 200px;
+     
+  }
+
+  .box{
+    
+    width: 700px;
+    height: 400px;
+    box-shadow: 2px;
+  }

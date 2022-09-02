@@ -1,0 +1,15 @@
+.gallery {
+    color: #081439;
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    padding-right: 10px;
+  }
+  .col {
+    transition: 1s;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  }
+  .col:hover {
+    transform: scale(1.15);
+    z-index: 2;
+  }
+  

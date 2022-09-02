@@ -1,38 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins:wght@300;700;800;900&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-nav a {
+  font-weight: lighter;
+}
+.navbar-nav a {
+  color: #dab551;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-nav a:hover::after {
+  content: " ";
+  padding-left: 8px;
+  border-right: 1px solid #dab551;
+  box-sizing: border-box;
+}
+.card-title {
+  border-bottom: 3px solid crimson;
+  display: inline-block;
+  padding-bottom: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.effect {
+  transition: 1s;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.effect:hover {
+  transform: scale(1.15);
+  z-index: 2;
+}
+.colour {
   color: white;
+  background-color: #2f3640;
+  padding: 6px;
+  /* font-size: 30px; */
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+.colour:hover {
+  background-color: #081439;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  color: #081439;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  transition: ease-in-out 1s;
+  padding-bottom: 5px;
+  margin: 50px 0;
+}
+.title:hover {
+  transform: scale(1.1);
+}
+.th {
+  background-color: #2f3640;
+  color: aliceblue;
+}
+.th:hover {
+  background-color: #081439;
+}
+.tm {
+  color: #081439;
+}
+.copy {
+  text-align: center;
+  font-size: x-small;
+}
+.under {
+  border-bottom: 5px solid crimson;
+  padding-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p,
+ul {
+  text-align: justify;
 }
+
