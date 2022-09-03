@@ -20,7 +20,7 @@ padding: 40px 15%;
     width: 100%;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    
     align-items: center;
     grid-gap: 6rem;
 }
@@ -120,6 +120,9 @@ cursor: pointer;
 }
 
 @media (max-width:1000px){
+    .container{
+        width: 100%;
+    }
     .contact{
         grid-template-columns: 1fr;
     }
