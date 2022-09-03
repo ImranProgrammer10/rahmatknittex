@@ -9,7 +9,6 @@ import Profile from './components/Profile/Profile';
 import Design from './components/Design/Design';
 import Factory from './components/Factory/Factory';
 import Product from './components/Products/Product';
-import Register from './components/Contact/Register/Register';
 import ContactUs from './components/ContactUs/ContactUs';
  
 function App() {

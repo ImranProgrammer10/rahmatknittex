@@ -9,7 +9,7 @@ import headerlogo from '../../../images/headerlogo.jpg';
 const Header = () => {
   
   return (
-    <Navbar  fixed="top"  collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar  fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Container>
       <Navbar.Brand href="#home">
       <img className="p-0 m-2" alt="" src={headerlogo} width="100" />
@@ -22,7 +22,7 @@ const Header = () => {
         </Nav>
         <Nav
               className="  my-2 my-lg-0 header"
-              style={{ maxHeight: '100px'  }}
+              style={{ maxHeight: 'fit-content'  }}
               navbarScroll
             >
        

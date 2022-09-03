@@ -29,7 +29,7 @@ const Banner = () => {
     { id: 11, image: banner11 },
   ];
   return (
-    <div style={{ position: "relative", top: "52px", marginBottom: "130px" }}>
+    <div className="mt-5" style={{ position: "relative", top: "50px", marginBottom: "130px" }}>
       <Carousel>
         {bannerImg.map((singleImg) => {
           const { id, image } = singleImg;
