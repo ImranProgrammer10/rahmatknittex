@@ -85,14 +85,14 @@ const ContactUs = () => {
             <h3 style={{"fontSize":"50px","color":"white"}}>CEO</h3>
             <h3 style={{"fontSize":"20px","color":"white"}}>Md.Mahmudul Hasan</h3>
             
-            <img style={{"height":"357px"}} src={nantu} alt="" />
+            <img style={{"height":"340px","width":"250px"}} src={nantu} alt="" />
         </Col>
         
         <Col  md={6} sm={12}>
         <h3 style={{"fontSize":"50px","color":"white"}}>CEO</h3>
         <h3 style={{"fontSize":"20px","color":"white"}}>Md.Rabiul Alam (Nantu) </h3>
          
-             <img style={{"height":"357px"}} src={montu} alt="" /></Col>
+             <img style={{"height":"340px","width":"250px"}} src={montu} alt="" /></Col>
       </Row>
    
     </Container>
