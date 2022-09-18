@@ -24,12 +24,14 @@ padding: 40px 15%;
     align-items: center;
     grid-gap: 6rem;
 }
+ 
 
 .contact-img img{
     max-width: 100%;
     width: 720px;
     height: auto;
     border-radius: 10px;
+   
 } 
 
 .contact-form h1{
@@ -134,3 +136,9 @@ cursor: pointer;
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+   .nantu-img{
+    margin-top: 70px;
+   }
+  }

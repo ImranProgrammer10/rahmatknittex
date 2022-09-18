@@ -12,18 +12,18 @@ import factory11 from "./factory/sewing.png";
 import factory12 from "./factory/washing.png";
 
 const FactoryGallery = [
-  { id: 1,title: "Cotton", image: factory1 },
-  { id: 2, title: "Knitting", image: factory2 },
-  { id: 3,title: "Laboratory", image: factory3 },
-  { id: 4,title: "Washing & Piece dyeing", image: factory4 },
-  { id: 5,title: "Dye Process", image: factory5 },
-  { id: 6,title: "CAD Style", image: factory6 },
-  { id: 7,title: "Cutting", image: factory7 },
-  { id: 8,title: "Sewing", image: factory8 },
+  { id: 1,title: "CAD Style", image: factory1 },
+  { id: 2, title: "Cotton", image: factory2 },
+  { id: 3,title: "Cutting", image: factory3 },
+  { id: 4,title: "Dye Process", image: factory4 },
+  { id: 5,title: "Embroidery", image: factory5 },
+  { id: 6,title: "Knitting", image: factory6 },
+  { id: 7,title: "laboratory", image: factory7 },
+  { id: 8,title: "packing", image: factory8 },
   { id: 9,title: "Screen Printing", image: factory9 },
-  { id: 10,title: "Embroidery", image: factory10 },
-  { id: 11,title: "Quality Control", image: factory11 },
-  { id: 12,title: "Packing", image: factory12},
+  { id: 10,title: "quality", image: factory10 },
+  { id: 11,title: "sewing", image: factory11 },
+  { id: 12,title: "Washing & Piece dyeing", image: factory12},
 ];
 
 export default FactoryGallery;
