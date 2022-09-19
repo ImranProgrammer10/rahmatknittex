@@ -10,6 +10,7 @@ import Design from './components/Design/Design';
 import Factory from './components/Factory/Factory';
 import Product from './components/Products/Product';
 import ContactUs from './components/ContactUs/ContactUs';
+import NotFound from './components/NotFound/NotFound';
  
 function App() {
   return (
@@ -31,8 +32,8 @@ function App() {
         {/* <Route path="/wardrobe" element={<Wardrobe />} /> */}
         {/* <Route path="/register" element={<Register
          />} /> */}
-        {/* <Route path="/home" element={<Home />} />
-        <Route path="*" element={<Notfound />} />   */}
+        {  
+        <Route path="*" element={<NotFound />} /> }
          <Route path="/contactus" element={<ContactUs
          />} />
          
